@@ -1,0 +1,73 @@
+/* Page globale */
+.games-page {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px; 
+}
+
+/* Header = titre + bouton */
+.games-header {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* Bouton Add */
+.add-btn {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #333;
+}
+
+/* Liste des matches */
+.games-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Carte match */
+.game-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.game-card h2 {
+  margin-bottom: 10px;
+}
+
+/* Bouton join */
+.join-btn {
+  margin-top: 10px;
+  background-color: #646cff;
+  color: white;
+  padding: 10px 16px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.join-btn:hover {
+  background-color: #4d55e0;
+}
