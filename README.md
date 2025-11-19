@@ -1,16 +1,22 @@
-# React + Vite
+# ⚽ Mazelet Blasa – Find & Join Football Games
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to browse available football games, filter them, join a match, or create a new one.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Browse available football games  
+- Filter by city, type, date, or price  
+- Create a new game (multi-step form)  
+- Join a match  
+- Simple About/Feedback page  
+- Clean UI with React + Vite  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React + Vite**
+- **React Router**
+- CSS Modules (simple CSS files)
+- Optional backend: FastAPI / PostgreSQL
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ Run Locally
+```bash
+npm install
+npm run dev
